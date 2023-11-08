@@ -10,6 +10,7 @@ function Footer() {
   return (
     <footer>
         <p>Copywrite {year}</p>
+        <p className='mt-0'>Designed by Prince Nna @agxcash</p>
     </footer>
   )
 }

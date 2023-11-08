@@ -5,6 +5,7 @@ import StudentArea from "./components/student/StudentArea";
 import TeacherArea from "./components/teachers/TeachersArea";
 import Courses from "./components/courses/Courses";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Login from "./components/Login";
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/" element={<Navigate replace to="/login" />} />
         </Routes>
-        
+        <Footer />
       </div>
     </Router>
   );
