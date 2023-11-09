@@ -62,7 +62,7 @@ const TeacherArea = () => {
                                 <input className="form-control" type="file" name="myFile" />
                             </div>
                         </div>
-                        <button className="btn btn-primary" type="submit">Submit</button>
+                        <button className="btn btn-warning" type="submit">Submit</button>
                     </form>
 
 
