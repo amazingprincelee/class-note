@@ -82,7 +82,7 @@ const AdminLoginInput = () => {
             type="email"
             name="email"
             className="form-control"
-            placeholder="Admin Email"
+            placeholder="Teacher's Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -133,7 +133,7 @@ const AdminLoginInput = () => {
             type="email"
             name="email"
             className="form-control"
-            placeholder="Admin Email"
+            placeholder="Student Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
