@@ -88,7 +88,7 @@ function AdminArea() {
       <td><button class="btn btn-success">Approve</button></td> 
     </tr>
     <tr>
-      <th scope="row">2</th>
+      <th scope="row">3</th>
       <td>Jason Luck</td>
       <td>English</td>
       <td>12/2/23</td>
