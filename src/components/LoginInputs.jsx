@@ -49,7 +49,7 @@ const AdminLoginInput = () => {
             required
           />
         </div>
-        <button type="submit" className="btn btn-primary">Login</button>
+        <button type="submit" className="btn btn-warning text-white">Login</button>
       </form>
     );
   };
@@ -99,7 +99,7 @@ const AdminLoginInput = () => {
             required
           />
         </div>
-        <button type="submit" className="btn btn-primary">Login</button>
+        <button type="submit" className="btn btn-warning text-white">Login</button>
       </form>
     );
   };
@@ -150,7 +150,7 @@ const AdminLoginInput = () => {
             required
           />
         </div>
-        <button type="submit" className="btn btn-primary">Login</button>
+        <button type="submit" className="btn btn-warning text-white">Login</button>
       </form>
     );
   };
@@ -168,7 +168,7 @@ const AdminLoginInput = () => {
         <div className="mb-3">
           <input type="password" name="password" className="form-control" placeholder="Password" required/>
         </div>
-        <button type="submit" className="btn btn-success">Register</button>
+        <button type="submit" className="btn btn-warning text-white">Register</button>
       </form>
     );
   };
@@ -185,7 +185,7 @@ const AdminLoginInput = () => {
         <div className="mb-3">
           <input type="password" name="password" className="form-control" placeholder="Password" required/>
         </div>
-        <button type="submit" className="btn btn-success">Register</button>
+        <button type="submit" className="btn btn-warning text-white">Register</button>
       </form>
     );
   };

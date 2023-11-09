@@ -62,6 +62,7 @@ function Login() {
     );
 
     return (
+        <div style={{marginTop:"200px"}}>
         <div className="container text-center mt-5">
             <div className="row align-items-start">
                 <div className="col d-grid">
@@ -81,6 +82,7 @@ function Login() {
                     {renderModal('studentRegister', 'Student Register')}
                 </div>
             </div>
+        </div>
         </div>
     );
 }
