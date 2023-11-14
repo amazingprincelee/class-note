@@ -62,7 +62,11 @@ function Login() {
     );
 
     return (
-        <div style={{marginTop:"200px"}}>
+        <div>
+        <div className='author'>
+            <p>Author: Prince Lee Nna | <a href='https://www.linkedin.com/in/amazingprincelee/'>Linkedin</a></p>
+            
+        </div>
         <div className="container text-center mt-5">
             <div className="row align-items-start">
                 <div className="col d-grid">
