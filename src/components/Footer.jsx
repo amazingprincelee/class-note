@@ -8,7 +8,7 @@ function Footer() {
 
 
   return (
-    <footer className='container'>
+    <footer>
         <p>Copywrite {year}</p>
     </footer>
   )

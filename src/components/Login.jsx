@@ -62,8 +62,8 @@ function Login() {
     );
 
     return (
-        <div>
-        <div className='author'>
+        <div style={{border:"2px solid red"}}>
+        <div className='author' >
             <p>Author: Prince Lee Nna | <a href='https://www.linkedin.com/in/amazingprincelee/'>Linkedin</a></p>
             
         </div>
