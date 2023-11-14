@@ -7,19 +7,24 @@ import Nav from 'react-bootstrap/Nav';
 
 function Header() {
   const linkStyle = {
-    color: 'white',
+    color: 'orange',
     textDecoration: 'none',
   };
 
+  const navbarToggleStyle = {
+    borderColor: 'orange',
+    backgroundColor: 'orange', // Add this line to set the background color
+  };
+
   return (
-    <Navbar bg="dark" expand="lg" variant="dark">
+    <Navbar expand="lg" variant="dark">
       <Container>
         <Navbar.Brand>
           <Link to="/" style={linkStyle}>
             <h1 className='header-h1'>Class Note</h1>
           </Link>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" style={navbarToggleStyle} />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Item>
